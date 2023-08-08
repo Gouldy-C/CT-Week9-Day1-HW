@@ -26,14 +26,18 @@ html, body, #root {
 .form-style {
   max-width: 500px;
   min-width: 360px;
-  background-color: $dark;
-  padding: 2rem;
-  border-radius: 1rem 4rem;
 }
 
 .container-theme {
   background-color: $dark;
   padding: 2rem;
   border-radius: 1rem 4rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
+}
+
+
+@media (max-width: 775px) {
+  .flex-column-sm{
+    flex-direction: column;
+  }
 }

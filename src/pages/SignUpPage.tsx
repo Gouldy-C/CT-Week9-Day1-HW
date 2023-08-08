@@ -7,7 +7,7 @@ export default function LoginPage() {
     <>
       <Body header="Sign Up Page">
 
-        <Container className="form-style">
+        <Container className="form-style container-theme">
 
         <SignUpForm/>
         

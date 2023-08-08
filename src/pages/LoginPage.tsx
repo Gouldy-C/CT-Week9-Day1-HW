@@ -7,7 +7,7 @@ export default function LoginPage() {
   return (
     <>
       <Body header="Login Page">
-        <Container className="form-style">
+        <Container className="form-style container-theme">
 
         <LoginForm/>
         

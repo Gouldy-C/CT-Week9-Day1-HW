@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <Container fluid className="main-container d-flex flex-column">
+    <Container className="main-container p-0 d-flex flex-column">
       <NavbarComp loggedIn={false} />
 
       {alertMes && (

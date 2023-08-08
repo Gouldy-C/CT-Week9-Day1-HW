@@ -5,7 +5,7 @@ export default function FooterComp() {
     <Container fluid className="mt-auto py-3 bg-dark rounded-4 rounded-bottom-0">
 
     
-    <div className="d-flex">
+    <div className="d-flex flex-column-sm">
       <Container className="form-style">
         <h5 className="fs-4">D&D Helper</h5>
         <Stack direction="horizontal">
