@@ -12,7 +12,7 @@ export default function Body({header, children}:BodyProps) {
     <>
       <Container>
       
-        <h1>{header}</h1>
+        <h1 className="mt-2 mb-0">{header}</h1>
 
       </Container>
       <Container>

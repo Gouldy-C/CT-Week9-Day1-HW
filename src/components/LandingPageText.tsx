@@ -1,7 +1,9 @@
+import { Container } from "react-bootstrap";
 
 export default function LandingPageText() {
   return (
-    <>
+    <Container className="container-theme">
+
     <h4>Welcome to D&D Helper - Your Ultimate Companion for Adventurous Imagination!</h4>
 
     <p>Embark on a journey of boundless creativity and explore the realms of D&D Helper, a haven crafted for those enchanted by epic tales and daring quests. As the premier destination for all things fantastical, we are dedicated to bringing you a world of wonder and imagination.</p>
@@ -23,6 +25,6 @@ export default function LandingPageText() {
     <p>Spellbinding Shop: Embark on a shopping spree like no other. Explore an array of handpicked merchandise, from finely crafted figurines to exquisite maps, allowing you to infuse your physical world with the magic of D&D Helper.</p>
     
     <p>At D&D Helper, adventure knows no bounds. Whether you're a dungeon delver, a lore enthusiast, or a storyteller extraordinaire, this is your sanctuary. Join us on an odyssey through the realms of imagination - where every click sparks a new tale and every scroll unveils a hidden wonder. Begin your journey today!</p>
-    </>
+    </Container>
   )
 }
