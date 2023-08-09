@@ -1,4 +1,5 @@
 import { Container, Nav, Stack } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 export default function FooterComp() {
   return (
@@ -10,14 +11,14 @@ export default function FooterComp() {
         <h5 className="fs-4">D&D Helper</h5>
         <Stack direction="horizontal">
           <ul className="list-unstyled mx-5 fs-4">
-              <li><Nav.Link href="/user">User</Nav.Link></li>
-              <li><Nav.Link href="/user">Profile</Nav.Link></li>
-              <li><Nav.Link href="/user">Characters</Nav.Link></li>
+              <li className="my-1"><Nav.Link as={NavLink} to="/">User</Nav.Link></li>
+              <li className="my-1"><Nav.Link as={NavLink} to="/">Profile</Nav.Link></li>
+              <li className="my-1"><Nav.Link as={NavLink} to="/">Characters</Nav.Link></li>
           </ul>
           <ul className="list-unstyled fs-4">
-            <li><Nav.Link href="/user">Contact Us</Nav.Link></li>
-            <li><Nav.Link href="/user">Legal Terms</Nav.Link></li>
-            <li><Nav.Link href="/user">About</Nav.Link></li>
+            <li className="my-1"><Nav.Link as={NavLink} to="/">Contact Us</Nav.Link></li>
+            <li className="my-1"><Nav.Link as={NavLink} to="/">Legal Terms</Nav.Link></li>
+            <li className="my-1"><Nav.Link as={NavLink} to="/">About</Nav.Link></li>
           </ul>
         </Stack>
       </Container>

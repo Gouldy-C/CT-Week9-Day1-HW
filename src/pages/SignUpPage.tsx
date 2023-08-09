@@ -1,6 +1,7 @@
 import { Container, Nav } from "react-bootstrap";
 import Body from "../components/Body";
 import SignUpForm from "../components/SignUpForm";
+import { NavLink } from "react-router-dom";
 
 export default function LoginPage() {
   return (
@@ -11,7 +12,7 @@ export default function LoginPage() {
 
         <SignUpForm/>
         
-        <p className="my-2">Already have an account? <Nav.Link href="/login" className="d-inline"> Click Here to Login</Nav.Link></p>
+        <p className="my-2">Already have an account? <Nav.Link as={NavLink} to="/login" className="d-inline"> Click Here to <strong className="text-success">Login</strong></Nav.Link></p>
 
         </Container>
         
